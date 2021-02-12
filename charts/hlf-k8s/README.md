@@ -113,8 +113,6 @@ The following table lists the configurable parameters of the hlf-k8s chart and d
 | `hlf-couchdb.persistence.storageClass`| Storage class of backing PVC | `default` |
 | `hlf-couchdb.couchdbUsername`| Username for CouchDB| `couchdb` |
 | `hlf-couchdb.couchdbPassword`| Password for CouchDB  | `couchdbpwd` |
-| `nginx-ingress.enabled` | If true, an nginx Ingress controller will be created | `false` |
-| `nginx-ingress.controller.nginx-ingress.extraArgs` | Additional controller arguments | `enable-ssl-passthrough: ""` |
 | `privateCa.enabled` | if true, use a private CA | `false` |
 | `privateCa.configMap.name` | The name of the ConfigMap containing the private CA certificate | `private-ca` |
 | `privateCa.configMap.fileName` | The CA certificate filename within the ConfigMap | `private-ca.crt` |
